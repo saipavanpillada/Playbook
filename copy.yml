@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+   - name: copy file /var to /tmp
+     copy: src=/var/log/messages dest=/tmp/
